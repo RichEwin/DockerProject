@@ -1,0 +1,9 @@
+## Builds and Deploys Video-Blog
+version: '3.8'
+services:
+  video-blog:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
